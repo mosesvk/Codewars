@@ -1,2 +1,2 @@
 # Codewars
-List of Codewars problems that I have solved
+List of Codewars problems that I have worked on
