@@ -2,6 +2,8 @@
 
 function addLength(str) {
     return str.split(' ').map(elem => `${elem} ${elem.length}`)
+    // .split changes String to Array
+    // .join changes Array to String
   };
 
 
