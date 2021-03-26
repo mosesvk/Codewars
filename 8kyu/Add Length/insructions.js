@@ -6,7 +6,10 @@
 // Your task is to write a function that takes a String and returns an Array/list with the length of each word added to each element .
 
 // Note: String will have at least one element; words will always be separated by a space.
+// hint: use split or join along with a map array for a shorter solution
+// Major hint: in the map array use a tempString to display the element and it's length. remember the split function changes a string to an array while join function changes an array to a string.
 
 function addLength(str) {
   //code-here
+
   };

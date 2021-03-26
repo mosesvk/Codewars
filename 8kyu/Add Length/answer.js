@@ -6,7 +6,6 @@ function addLength(str) {
     // .join changes Array to String
   };
 
-
 // You can also do it via arrow function
 
 const addLength = string => string.split(' ').map(word => `${word} ${word.length}`)
