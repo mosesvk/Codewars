@@ -1,3 +1,8 @@
+//step 1: ask clarifying questions
+//step 2: function signature -> function(number) => number
+//step 3: sample data, 
+//step 4: pseudo code (step by step of what you will be doing)
+// Solve Problem
 
 // My Answer
 function positiveSum(arr) {
@@ -10,7 +15,8 @@ function positiveSum(arr) {
   return total;                         // return total
 }
 
-// Other Answers
+
+// Other Answers seen after submission
 function positiveSum(arr) {
   return arr.reduce(( a, b ) => a + ( b > 0 ? b : 0 ),0);
 }
@@ -31,7 +37,7 @@ function positiveSum (arr) {
 // JavaScript: 
 // What does hoisting refer to, and how does it work in JavaScript?
 // ==> this is JS's behavior of having DECLARATIONS in the top
-//     Remember to ALWAYS declare all variables at the top of the scope 
+//     Remember to ALWAYS declare with VAR all variables at the top of the scope 
 //     This is good practice as it will help avoid any bugs.
 
 // React: 
