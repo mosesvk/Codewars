@@ -4,12 +4,10 @@ function even_or_odd(number) {
   // ...
 }
 
-
 /// Additional Q's
 
 // HTML/CSS: 
 // Describe the box-model in HTML/CSS.
-// => 
 
 // JavaScript: 
 // What does hoisting refer to, and how does it work in JavaScript?
