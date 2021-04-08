@@ -1,3 +1,8 @@
+// pseudo code
+// 1. iterate over the string
+// 2. if the current letter is a, e, i, o, u
+// 3. increase the vowelsCount
+
 
 //answer (most clever by someone else) 
 function getCount(str) {
@@ -17,4 +22,12 @@ function getCount(str) {
   }
   
   return vowelsCount;
+}
+
+//answer 3
+function getCount(str) {
+  const vowels = {
+    a: true, e: true, i: true, o: true, u: true
+  };
+  return str.split('').filter((currentLetter) => vowels[currentLetter]).length
 }
