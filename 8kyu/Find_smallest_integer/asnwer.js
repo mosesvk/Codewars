@@ -34,10 +34,10 @@ class SmallestIntegerFinder {
 
 /// JAVASCRIPT
 //  What is the difference between a for loop, and a for in loop?
-//  => for loop is for looping through an array 
-//  => for in loop is for looping through an object
+//  => for loop is for looping through a SEQUENCE (most likely an array). But it can loop through a string as well 
+//  => for in loop is for looping through an OBJECT's properties
 
 /// REACT 
 //  What are the differences between a class component, and a functional component?
 //  => functional component: more simple function of JS that accepts props as an argument. 
-//  => class component: function that needs to extend from React Component and where state can be stored, along with a render function which returns a React element. 
+//  => class component: function that needs to extend from React Component and where state can be stored, along with a render function which returns a React element. only class has immediate access to lifecycle methods
