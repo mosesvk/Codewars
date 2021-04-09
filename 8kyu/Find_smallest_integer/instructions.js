@@ -11,11 +11,10 @@
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     // code here
-  }
 }
 
 //step 1: ask clarifying questions
 //step 2: function signature -> function(args) => number
 //step 3: sample data, 
 //step 4: pseudo code (step by step of what you will be doing)
-// Solve Problem
+// Solve 
