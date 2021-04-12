@@ -5,8 +5,11 @@
 // Note: if there is nothing to sum, the sum is default to 0.
 
 function positiveSum(arr) {
-  var total = 0;    
-
+  return arr.reduce((acc, cur) => {
+    if (cur > 0){
+      acc + cur
+    }
+  }, 0)
 }
 
 
