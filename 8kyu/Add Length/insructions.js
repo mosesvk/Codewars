@@ -11,5 +11,8 @@
 
 function addLength(str) {
   //code-here
-
+  // use an array method that changes that splits a string object to into an array of strings
+  // then also use an array method to loop through the array that creates a new array based on the change made above.
+  // use a tempstring to include the length of each of the array properties. 
+  
   };
