@@ -8,5 +8,6 @@ function repeatStr (n, s) {
   return '';
 }
 
+// step 1: 
 
 
