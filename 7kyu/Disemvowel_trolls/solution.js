@@ -10,6 +10,7 @@ const disemvowel = string => string.replace(/[aeiou]/gi, '')
 
 // HTML/CSS: 
 // How could you make a star using CSS shapes only?
+// Code 3 isosceles triangles overlapping eachother making sure each of the points are the tips of the star.
 
 // JavaScript: 
 // Describe how scoping works in JavaScript.
