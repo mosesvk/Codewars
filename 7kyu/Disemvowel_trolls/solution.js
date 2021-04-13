@@ -1,4 +1,9 @@
 
+const disemvowel = str => {
+  const vowel = /[aeiou]/gi
+  const vowelessStr = str.replace(vowel, '')
+  return vowelessStr
+}
 
 const disemvowel = string => string.replace(/[aeiou]/gi, '')
 //Remember the 'gi' is a modifier to do a case INSENSITIVE search because there are both capitalize and non cap letters. 
