@@ -26,4 +26,6 @@ function countDevelopers(list) {
 
 // React: 
 // What are React lifecycle events?
-// 
+// Constructor -> Render -> ComponentDidMount (Mounting)
+// Render -> componentDidUpdate (Updating)
+// componentDidUnmount (Unmounting)

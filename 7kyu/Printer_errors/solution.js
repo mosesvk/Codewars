@@ -15,3 +15,23 @@ function printerError(s) {
   return count+"/"+s.length;
 }
 
+
+function printerError(s) {
+  let split = s.split('')
+  let badString = 'nopqrstuvwxyz'
+  let badArray = badString.split('')
+  let count = 0
+  for (let i = 0; i < split.length; i++){
+    badArray.forEach(elem => {
+      if (elem === split[i]){
+        count++
+      }
+    })
+  }
+  return `${count}/${split.length}`
+}
+
+
+function printerError(s) {
+  return s.match(/[^a-m]/g).length + "/" + s.length;
+}
