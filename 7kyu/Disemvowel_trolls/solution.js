@@ -1,3 +1,9 @@
+//step 1: ask clarifying questions
+//step 2: function signature -> function(args) => number
+//step 3: sample data, "This website is for losers LOL!"
+//step 4: pseudo code (step by step of what you will be doing)
+// Solve Problem
+
 
 const disemvowel = str => {
   const vowel = /[aeiou]/gi
