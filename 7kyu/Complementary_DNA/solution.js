@@ -50,3 +50,14 @@ function DNAStrand(dna){
     return result;
   }
 
+
+  const DNAStrand = dna => {
+    const keys = {
+      A: 'T',
+      T: 'A',
+      G: 'C',
+      C: 'G'
+    };
+    return dna.split('').map(item => keys[item]).join('');
+  };
+  
