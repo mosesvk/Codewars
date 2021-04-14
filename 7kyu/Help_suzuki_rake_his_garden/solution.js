@@ -3,8 +3,26 @@
 // Step 3: Sample Data: garden = 'slug spider rock gravel gravel gravel gravel gravel gravel gravel'
 // Step 4: pseudo code 
 
+// Best Practice Solution
 function rakeGarden(garden) {
-  var rakedGarden;
-  // TODO: Program Me
+  return garden
+    .split(' ')
+    .map(val => val == 'rock' ? 'rock' : 'gravel')
+    .join(' ')
+}
+
+// Longest Solution
+function rakeGarden(garden) { 
+
+  var tab = garden.split(" ");
+  for(var i=0; i<tab.length;i++){
+    if(tab[i]!='rock' && tab[i]!='gravel'){
+      tab[i] = 'gravel';
+    }
+  }
+  var rakedGarden = tab.join(" ");
+
   return rakedGarden;
 }
+
+
