@@ -4,7 +4,49 @@
 // Step 4: Pseudo code
 //         use the .replace method. return that new string
 
-function DNAStrand(dna){
-  //your code here
-  
+//Shortest Solution
+let pairs = {A:'T',T:'A',C:'G',G:'C'};
+const DNAStrand = dna => dna.replace(/./g, c => pairs[c]);
+
+//Best Practice Solution
+function DNAStrand(dna) {
+  return dna.replace(/./g, function(c) {
+    return DNAStrand.pairs[c]
+  })
 }
+
+DNAStrand.pairs = {
+  A: 'T',
+  T: 'A',
+  C: 'G',
+  G: 'C',
+}
+
+//Longest Solution
+function DNAStrand(dna){
+  var result= "";
+    for(var i =0; i<dna.length; i++) 
+    {
+      if (dna[i]==="A") 
+      {
+      result +="T";
+      }
+      else if (dna[i]==="T") 
+      {
+      result += "A";
+      }
+      else if (dna[i]==="C")
+      {
+      result +="G";
+      }
+      else if (dna[i]==="G")
+      {
+      result += "C";
+      }
+      else {
+      result +=dna[i];
+      }
+    }
+    return result;
+  }
+
