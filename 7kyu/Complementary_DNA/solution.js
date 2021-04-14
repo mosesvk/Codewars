@@ -61,3 +61,13 @@ function DNAStrand(dna){
     return dna.split('').map(item => keys[item]).join('');
   };
   
+
+//   HTML/CSS: 
+
+// What is the transform property, and how does it work?
+// JavaScript: 
+
+// What does the statement 'use strict' do in JavaScript?
+// React: 
+
+// How is React different from Vanilla JS, jQuery, and Angular?
