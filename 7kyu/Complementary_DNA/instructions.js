@@ -9,3 +9,9 @@
 // DNAStrand ("ATTGC") // return "TAACG"
 
 // DNAStrand ("GTAT") // return "CATA" 
+
+
+function DNAStrand(dna){
+  //your code here
+  
+}
