@@ -33,3 +33,7 @@
 function itinerary(travel) {
   // here your code
 }
+
+/// Long Solution: for loop/ if statement
+
+//
