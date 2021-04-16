@@ -17,18 +17,8 @@ function fizzbuzz(n)
 
 var fizzify = fizzbuzz;
 
-
-
 ///
-var fizzify = fizzbuzz = function(n)
-{
-  return Array.apply(null, new Array(n)).map(function(e, i){
-    return (++i % 3 ? '' : 'Fizz' ) + (i % 5 ? '' : 'Buzz') || i;
-  }); 
-}
 
-
-///
 function fizzbuzz(n) {
   var fizzified = [];
   for (var i = 1; i <= n; i++) {
@@ -38,10 +28,6 @@ function fizzbuzz(n) {
     fizzified.push(val || i);
   }
   return fizzified;
-}
-
-function fizzify(n) {
-  return fizzbuzz(n);
 }
 
 
