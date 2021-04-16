@@ -14,8 +14,3 @@ function fizzbuzz(n)
   
 }
 
-
-// 1. use a For loop to loop through the number, 
-// 2. use if statements to return "fizz" if %3 , "buzz" if %5, and "FizzBuzz" if %3 & %5
-// push into an array that is stored inside of a value 
-
