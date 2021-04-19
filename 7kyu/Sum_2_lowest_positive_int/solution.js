@@ -1,22 +1,31 @@
-function accum(s) {
-  return s.split('').map((c, i) => (c.toUpperCase() + c.toLowerCase().repeat(i))).join('-');
-}
+function sumTwoSmallestNumbers(numbers){  
+  numbers = numbers.sort(function(a, b){return a - b; });
+  return numbers[0] + numbers[1];
+};
 
 /////////////////////////////////////////
 
-function accum(str) {
-  var letters = str.split('');
-  var result = [];
-  for (var i = 0; i < letters.length; i++) {
-    result.push(letters[i].toUpperCase() + Array(i + 1).join(letters[i].toLowerCase()));
+function sumTwoSmallestNumbers(numbers) {  
+  var min = Number.MAX_SAFE_INTEGER;
+  var secondMin = Number.MAX_SAFE_INTEGER;
+  
+  var n;
+  for (i = 0; i < numbers.length; i++) {
+    n = numbers[i];
+    if(n < min) {
+      secondMin = min;
+      min = n;
+    } else if( n < secondMin ) {
+      secondMin = n;
+    }
   }
-  return result.join('-');
+  
+  return min + secondMin;
 }
 
 /////////////////////////////////////////
 
-function accum (s) {
-  return [...s].map((element, index) => {
-    return element.toUpperCase() + element.toLowerCase().repeat(index);
-  }).join('-');
+function sumTwoSmallestNumbers(numbers) {  
+  var [ a, b ] = numbers.sort((a, b) => a - b)
+  return a + b
 }
