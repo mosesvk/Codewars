@@ -5,7 +5,12 @@
 // Solve Problem
 
 function superSize(num){
-  return Number(num.toString().split('').sort((a, b) => b - a).join(''));
+  return parseInt(num
+    .toString()
+    .split('')
+    .sort((a, b) => b - a)
+    .join('')
+    );
 }
 
 const superSize = num => +(num+'').split('').sort((a,b)=>b-a).join('')
