@@ -41,3 +41,5 @@ class SmallestIntegerFinder {
 //  What are the differences between a class component, and a functional component?
 //  => functional component: more simple function of JS that accepts props as an argument. 
 //  => class component: function that needs to extend from React Component and where state can be stored, along with a render function which returns a React element. only class has immediate access to lifecycle methods
+
+//Make sure to study each of these questions

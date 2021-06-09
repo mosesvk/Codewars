@@ -13,8 +13,7 @@
 // --> One for the new array to push the items
 // --> One for the new value that we will store while mapping through the number 
 
-function fizzbuzz(n)
-{
-  
-}
 
+function fizzbuzz(number) {
+
+}

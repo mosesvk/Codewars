@@ -4,8 +4,4 @@
 // Are there any constraints? 
 // Will there only be numbers that are inputted? 
 
-function even_or_odd(number) {
-  // ...
-
-}
 
