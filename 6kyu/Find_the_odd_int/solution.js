@@ -36,3 +36,23 @@ const findOdd = (arr) => {
     }
   }
 }
+
+/////////
+
+const findOdd = (arr) => {
+  let odd = {};
+
+  for (let i = 0; i < arr.length; i++){
+    if (odd[arr[i]]){
+      odd[arr[i]]++;
+    } else {
+      odd[arr[i]] = 1;
+    }
+  }
+
+  for (let j in odd){
+    if (odd[j] % 2 !== 0){
+      return Number(j)
+    }
+  }
+}
