@@ -51,8 +51,5 @@ const findOdd = (arr) => {
   }
 
   for (let j in odd){
-    if (odd[j] % 2 !== 0){
-      return Number(j)
-    }
   }
 }
