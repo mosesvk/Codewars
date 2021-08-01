@@ -1,5 +1,5 @@
 const maxProfit = (prices) => {
-  
+
 }
 
 
@@ -11,10 +11,12 @@ var maxProfit = function(prices) {
           if(((prices[i]) < (prices[i+1]))){
               let buy=prices[i];
               let next=prices[i+1];
+                    
               if(next-buy>0){
                   let profit=next-buy;
                   a=a+profit;
                   i++;
+                  
                   if(prices[i]>prices[i-1]){
                       i--;
                   }
