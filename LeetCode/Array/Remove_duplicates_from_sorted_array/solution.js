@@ -41,3 +41,11 @@ var removeDuplicates = function(nums) {
 };
 
 ////////////////////////////////////////////////////////////
+
+var rotate = function(nums, k) {
+    if(k!=0){
+        let pop = nums.pop()
+        nums.unshift(pop)
+        rotate(nums,k-1)
+    }
+};
