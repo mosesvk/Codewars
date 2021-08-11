@@ -1,12 +1,20 @@
 const removeDuplicates = nums => {
-  let i = 0;
 
-  for (let j = 1; j < nums.length; j++){
-    if (nums[i] != nums[j]){
-      i++
-      nums[i] = nums[j]
+}
+
+
+
+
+const removeDuplicates = nums => {
+
+  for (let i = 0; i < nums.length - 1; i++){
+    for (let j = 1; j < nums.length; j++){
+      if(nums[i] === nums[j]){
+        nums.splice(j, 1)
+      }
     }
   }
+  return nums
 }
 
 
@@ -40,12 +48,4 @@ var removeDuplicates = function(nums) {
   return i+1;
 };
 
-////////////////////////////////////////////////////////////
-
-var rotate = function(nums, k) {
-    if(k!=0){
-        let pop = nums.pop()
-        nums.unshift(pop)
-        rotate(nums,k-1)
-    }
-};
+///////////////////////////////////////////////////////////
