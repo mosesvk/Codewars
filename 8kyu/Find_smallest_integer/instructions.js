@@ -9,7 +9,6 @@
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     // code here
-    // use an array method to find the smallest number in the array.
     
   }
 }
