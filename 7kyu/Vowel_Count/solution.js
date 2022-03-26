@@ -3,6 +3,7 @@ function getCount(str) {
   return (str.match(/[aeiou]/gi) || []).length;
   // It actually works without the || [] but we might need that in the future
 }
+// the match() method gets the result of matching a string against a regular expression (regex)
 
 //another quick answer --> updated 03-26-2022
 function getCount(str) {
