@@ -9,6 +9,11 @@ function squareDigits(num){
 }
 
 // the quickest solutions 
+
 function squareDigits(num){
   return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+}
+
+function squareDigits(num){
+  return +num.toString().split('').map(i => i*i).join('');
 }
