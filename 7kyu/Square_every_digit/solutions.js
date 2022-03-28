@@ -8,8 +8,7 @@ function squareDigits(num){
   
 }
 
-// the quickest solution 
+// the quickest solutions 
 function squareDigits(num){
   return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
-  
 }
