@@ -7,3 +7,9 @@ function squareDigits(num){
   return Number(numArray.map(item => Math.pow(item,     2)).join(''))
   
 }
+
+// the quickest solution 
+function squareDigits(num){
+  return Number(('' + num).split('').map(function (val) { return val * val;}).join(''));
+  
+}
