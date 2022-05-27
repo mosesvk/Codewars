@@ -12,6 +12,5 @@
 
 function digital_root(n) {
 
-  // Enter code here 
 
 }
