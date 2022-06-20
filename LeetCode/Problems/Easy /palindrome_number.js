@@ -19,11 +19,11 @@ const palindrome = (num) => {
   // Enter code Here
 };
 
-// const isPalindrome = (x) => {
-//   if (x < 0) return false;
+const isPalindrome = (x) => {
+  if (x < 0) return false;
 
-//   return x.toString().split('').reverse().join('') === x.toString();
-// };
+  return x.toString().split('').reverse().join('') === x.toString();
+};
 
 const isPalindrome_1 = (x) => {
   if (x < 0) {
