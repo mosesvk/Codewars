@@ -27,13 +27,11 @@ const isPalindrome = (x) => {
 
 const isPalindrome_1 = (x) => {
   if (x < 0) {
-    // if the number is negative, return false
     return false;
   }
   let num = x; // store the number
   let rev = 0; // store the reversed number
   while (num > 0) {
-    // while the number is greater than 0
     let rem = num % 10; // find the remainder of the number divided by 10
     rev = rev * 10 + rem; // add the remainder to the reversed number times 10 and add it to the reversed number
     num = Math.floor(num / 10); // divide the number by 10 to find the next digit
